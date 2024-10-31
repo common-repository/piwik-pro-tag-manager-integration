@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Piwik PRO Tag Manager Integration\n"
+"POT-Creation-Date: 2017-06-20 18:37+0200\n"
+"PO-Revision-Date: 2017-06-20 18:38+0200\n"
+"Last-Translator: Piotr Niewiadomski <p.niewiadomski@clearcode.cc>\n"
+"Language-Team: Piwik PRO | Piotr Niewiadomski <p.niewiadomski@piwik.pro>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: framework/plugin.php:135
+msgid "Author"
+msgstr "Autor"
+
+#: framework/plugin.php:150
+msgid "Error"
+msgstr "Błąd"
+
+#: framework/plugin.php:151
+msgid "Class"
+msgstr "Klasa"
+
+#: framework/plugin.php:152
+msgid "Function"
+msgstr "Funckja"
+
+#: framework/singleton.php:30 framework/singleton.php:33
+#: framework/singleton.php:37
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujemy, co?"
+
+#: includes/cron.php:67
+msgid "interval"
+msgstr "interwał"
+
+#: includes/files.php:92
+msgid "Wrong response code"
+msgstr "Błędny kod odpowiedzi"
+
+#: includes/section.php:110
+#, php-format
+msgid "Dir: %s does not exists!"
+msgstr "Folder: %s nie istnieje!"
+
+#: includes/section.php:111
+#, php-format
+msgid "Dir: %s is not writable!"
+msgstr "Folder: %s nie ma uprawnień do zapisu!"
+
+#: includes/section.php:112
+#, php-format
+msgid "Dir: %s is not readable!"
+msgstr "Folder: %s nie ma uprawnień do odczytu!"
+
+#: includes/section.php:114
+msgid "Server not supports URL rewriting."
+msgstr "Serwer nie obsługuje przepisywania adresów."
+
+#: includes/section.php:125
+msgid "Server URL"
+msgstr "URL Serwera"
+
+#: includes/section.php:139
+msgid "Website ID"
+msgstr "Identyfikator Strony"
+
+#: includes/section.php:153
+msgid "Method"
+msgstr "Metoda"
+
+#: includes/section.php:165
+#, php-format
+msgid "Paste the following code after %s tag in your theme: %s."
+msgstr "Wklej następujący kod po znaczniku %s Twojego motywu: %s."
+
+#: includes/section.php:166
+msgid "Preferred method."
+msgstr "Preferowana metoda."
+
+#: includes/section.php:185
+#, php-format
+msgid ""
+"Use this option if you are not sure if the %s function is added to your "
+"theme."
+msgstr ""
+"Użyj tej opcji jeśli nie jesteś pewny czy funkcja %s występuje w Twoim "
+"motywie."
+
+#: includes/section.php:186
+#, php-format
+msgid "It will add snippet in %s section using %s."
+msgstr "Skrypt zostanie dodany w sekcji %s przy użyciu %s."
+
+#: includes/section.php:194
+msgid "Dependencies"
+msgstr "Zależności"
+
+#: includes/section.php:205
+#, php-format
+msgid "Comma separated %s handles. Works only with %s method."
+msgstr ""
+"Rozdzielone przecinkami identyfikatory funkcji %s. Działa jedynie z metodą "
+"%s."
+
+#: includes/section.php:212
+msgid "Cache"
+msgstr "Pamięć podręczna"
+
+#: includes/section.php:222 includes/section.php:337
+msgid "enable/disable"
+msgstr "włącz/wyłącz"
+
+#: includes/section.php:224
+msgid "Use this option if you want to serve the script from a cached file"
+msgstr "Użyj tej opcji jeśli chcesz serwować skrypt z pamięci podręcznej."
+
+#: includes/section.php:241
+#, php-format
+msgid "Preferred method is to disable %s and add a task to cron on the server."
+msgstr ""
+"Preferowaną metodą jest wyłączenie harmonogramu %s i dodanie zadania do "
+"harmonogramu cron na serwerze."
+
+#: includes/section.php:246
+msgid "Add the following constant to"
+msgstr "Dodaj następującą stałą do"
+
+#: includes/section.php:251
+msgid "Add the following task to your cron jobs"
+msgstr "Dodaj następujące zadanie do harmonogramu cron"
+
+#: includes/section.php:265
+msgid "minutes"
+msgstr "minut"
+
+#: includes/section.php:267
+msgid "Set refresh the cache interval."
+msgstr "Ustaw interwał czasowy odświeżania pamięci podręcznej."
+
+#: includes/section.php:285
+msgid "Add the following rules at the beginning of this file"
+msgstr "Dodaj następujące reguły na początku pliku"
+
+#: includes/section.php:301
+msgid "rewrite"
+msgstr "przepisz"
+
+#: includes/section.php:303
+msgid "Use this option if you want to rewrite the script's url to"
+msgstr "Użyj tej opcji jeśli chcesz przepisać adres skryptu na"
+
+#: includes/section.php:319
+msgid "clear"
+msgstr "wyczyść"
+
+#: includes/section.php:321
+msgid "Delete all the cached files and directories from"
+msgstr "Usuń wszystkie pliki i foldery z pamięci podręcznej"
+
+#: includes/section.php:327
+msgid "Version"
+msgstr "Wersia"
+
+#: includes/section.php:339
+#, php-format
+msgid ""
+"Add the %s parameter in the query string for the scripts' url with the "
+"timestamp."
+msgstr "Dodaj parametr %s ze znacznikiem czasu do adresu url skryptu."
+
+#: includes/section.php:345
+msgid "Snippet"
+msgstr "Snippet"
+
+#: includes/section.php:355
+msgid "version"
+msgstr "wersja"
+
+#: includes/section.php:357
+msgid "Uncheck this option to enable support for older versions"
+msgstr "Odznacz tą opcję aby uruchomić wsparcie dla starszych wersji"
+
+#: includes/section.php:366 includes/settings.php:64
+#, php-format
+msgid "Include tags in %s section"
+msgstr "Dodaj tagi do sekcji %s"
+
+#: includes/settings.php:48 includes/settings.php:51
+msgid "Piwik PRO Tag Manager integration"
+msgstr "Integracja Piwik PRO Tag Manager"
+
+#: includes/settings.php:69 includes/tag-manager.php:85
+msgid "Settings"
+msgstr "Ustawienia"
+
+#~ msgid "Piwik PRO Tag Manager version >= 1.16.0"
+#~ msgstr "Piwik PRO Tag Manager version >= 1.16.0"
+
+#~ msgid "Piwik PRO Tag Manager 1.16.0"
+#~ msgstr "Piwik PRO Tag Manager 1.16.0"
+
+#~ msgid "Learn more about %s on the Piwik PRO Tag Manager documentation page."
+#~ msgstr ""
+#~ "Dowiedz się więcej o %s na stronie dokumentacji Piwik PRO Tag Manager."
+
+#~ msgid "Getting started"
+#~ msgstr "Jak zacząć"
+
+#~ msgid "Containers"
+#~ msgstr "Kontenerach"
+
+#~ msgid "Container UUID"
+#~ msgstr "UUID Kontenera"
+
+#~ msgid "Container ID"
+#~ msgstr "ID Kontenera"
+
+#~ msgid "Include tags synchronous"
+#~ msgstr "Umieść tagi synchronicznie"
+
+#~ msgid "Preferred method"
+#~ msgstr "Preferowana metoda"
+
+#~ msgid ""
+#~ "It will add the Piwik PRO Tag Manager snippet directly before the %s tag "
+#~ "using %s."
+#~ msgstr ""
+#~ "Spowoduje to dodanie skryptu Piwik PRO Tag Manager bezpośrednio przed "
+#~ "znacznikiem %s za pomocą %s."
+
+#~ msgid "Include tags asynchronous"
+#~ msgstr "Umieść tagi asynchronicznie"
+
+#~ msgid ""
+#~ "Add the following code directly after the %s tag in your theme (preferred "
+#~ "method)"
+#~ msgstr ""
+#~ "Dodaj poniższy kod bezpośrednio po znaczniku %s w swoim motywie "
+#~ "(preferowana metoda)"
+
+#~ msgid "Use this option if you cannot add the %s function to your theme."
+#~ msgstr "Użyj tej opcji jeśli nie możesz dodać funkcji %s do swojego motywu."
+
+#~ msgid ""
+#~ "It will add the Piwik PRO Tag Manager snippet directly after the %s tag "
+#~ "using %s."
+#~ msgstr ""
+#~ "Spowoduje to dodanie skryptu Piwik PRO Tag Manager bezpośrednio po "
+#~ "znaczniku %s za pomocą %s."
+
+#~ msgid "7tag Settings"
+#~ msgstr "7tag Ustawienia"
+
+#~ msgid "7tag"
+#~ msgstr "7tag"
+
+#~ msgid "Learn more about %s on the 7tag documentation page."
+#~ msgstr "Dowiedz się więcej o %s na stronie dokumentacji 7tag."
+
+#~ msgid "Installation"
+#~ msgstr "Instalacji"
+
+#~ msgid "It will add the 7tag snippet directly before the %s tag using %s."
+#~ msgstr ""
+#~ "Spowoduje to dodanie skryptu 7tag bezpośrednio przed znacznikiem %s za "
+#~ "pomocą %s."
+
+#~ msgid "It will add the 7tag snippet directly after the %s tag using %s."
+#~ msgstr ""
+#~ "Spowoduje to dodanie skryptu 7tag bezpośrednio po znaczniku %s za pomocą "
+#~ "%s."
+
+#~ msgid ""
+#~ "Paste the following code directly after the opening <body> tag in your "
+#~ "theme"
+#~ msgstr ""
+#~ "Wklej poniższy kod bezpośrednio za otwierającym znacznikiem <body> w "
+#~ "Twoim motywie"
+
+#~ msgid ""
+#~ "Use this option if you can not add the wp_body_open function to your "
+#~ "theme."
+#~ msgstr ""
+#~ "Użyj tej opcji jeśli nie możesz dodać funkcji wp_body_open do swojego "
+#~ "motywu."
+
+#~ msgid "Include in"
+#~ msgstr "Dołącz do"
+
+#~ msgid ""
+#~ "Paste the following code directly after open <body> tag in your theme"
+#~ msgstr ""
+#~ "Wklej poniższy kod bezpośrednio za otwierającym znacznikiem <body> w "
+#~ "Twoim motywie"
+
+#~ msgid "Prefered method"
+#~ msgstr "Preferowana metoda"
